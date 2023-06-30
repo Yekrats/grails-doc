@@ -142,7 +142,7 @@ Of course, `exclude` does the reverse, specifying which constraints should _not_
 |nullable|Allows a property to be set to `null` - defaults to `false`.|`age(nullable: true)`
 |range|Uses a Groovy range to ensure that a property's value occurs within a specified range|`age(range: 18..65)`
 |scale|Set to the desired scale for floating point numbers (i.e., the number of digits to the right of the decimal point).|`salary(scale: 2)`
-|size|Uses a Groovy range to restrict the size of a collection or number or the length of a String.|`children(size: 5..15)`
+|size|Uses a Groovy range to restrict the size of a collection or the length of a String.|`zipcode(size: 5..10)`
 |unique|Constrains a property as unique at the database level|`login(unique: true)`
 |url|Validates that a String value is a valid URL.|`homePage(url: true)`
 |validator|Adds custom validation to a field.|See documentation
